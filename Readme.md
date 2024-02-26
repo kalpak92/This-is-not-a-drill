@@ -1,4 +1,4 @@
-# Grind
+# Interview Prep - 2024
 
 ## Divide and Conquer
 
