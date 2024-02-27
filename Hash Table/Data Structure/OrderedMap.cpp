@@ -1,3 +1,15 @@
+/**
+ * Implementation: Internally, a std::map is implemented using a self-balancing binary search tree (BST), typically a Red-Black Tree. 
+ * This ensures that the elements are always sorted by their keys in increasing order.
+ * 
+ * Search Time: The search time complexity for a std::map is O(log N), where N is the number of elements.
+ * Insertion and Deletion Time: Insertion and deletion involve logarithmic time complexity due to the need for rebalancing the tree.
+ * 
+ * Use Cases:
+ * When you need ordered data and want to access/print elements in sorted order.
+ * When you require predecessor/successor information for elements.
+*/
+
 #include <iostream>
 #include <map>
 
