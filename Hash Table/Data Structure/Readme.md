@@ -76,3 +76,13 @@ Well-known probe sequences include:
 ![Open Addresing](./images/hash_collision_resolution_open_addressing.png)
 
 Since the slots are located in successive locations, open addressing could lead to better utilization of CPU cache due to locality of references resulting in reduced memory latency.
+
+### Some other collision resolution techniques
+
+- Coalesced Hashing
+- Cuckoo Hashing
+  - Cuckoo hashing is a form of open addressing collision resolution technique which guarantees O(1) worst-case lookup complexity and constant amortized time for insertions. 
+  - The collision is resolved through **maintaining two hash tables**, each having its own hashing function, and *collided slot gets replaced with the given item, and the preoccupied element of the slot gets displaced into the other hash table*. 
+  - The process continues until every key has its own spot in the empty buckets of the tables; if the procedure enters into infinite loop—which is identified through maintaining a threshold loop counter—both hash tables get rehashed with newer hash functions and the procedure continues.
+- Hopscotch Hashing
+- Robin Hood Hashing
