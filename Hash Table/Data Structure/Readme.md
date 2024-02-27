@@ -58,5 +58,21 @@ Chained-Hash-Delete(T, k)
   delete x from the linked list T[h(k)]
   ```
 
-![Separate chaining](./images/separate-chaining.svg)
+![Separate chaining](./images/hash_collision_resolution_separate_chaining.png)
 
+The linked list of separate chaining implementation **may not be cache-conscious** due to `spatial locality — locality of reference` — when the nodes of the linked list are scattered across memory, thus the list traversal during insert and search may entail CPU cache inefficiencies.
+
+### Open addressing
+
+Open addressing is another collision resolution technique in which every entry record is stored in the bucket array itself, and the hash resolution is performed through probing. 
+- When a new entry has to be **inserted**, the buckets are examined, starting with the hashed-to slot and proceeding in some probe sequence, until an unoccupied slot is found. 
+- When **searching** for an entry, the buckets are scanned in the same sequence, until either the target record is found, or an unused array slot is found, which indicates an unsuccessful search.
+
+Well-known probe sequences include:
+- **Linear probing**, in which the interval between probes is fixed (usually 1).
+- **Quadratic probing**, in which the interval between probes is increased by adding the successive outputs of a quadratic polynomial to the value given by the original hash computation.
+- **Double hashing**, in which the interval between probes is computed by a secondary hash function.
+
+![Open Addresing](./images/hash_collision_resolution_open_addressing.png)
+
+Since the slots are located in successive locations, open addressing could lead to better utilization of CPU cache due to locality of references resulting in reduced memory latency.
