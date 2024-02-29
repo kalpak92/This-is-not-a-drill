@@ -11,7 +11,7 @@ Ideally, the hash function will assign each key to a unique bucket, but most has
 A load factor is a critical statistic of a hash table, and is defined as follows:
 
 ```math
-load factor = \frac{{\text{{number of entries}}}}{{\text{{number of buckets}}}}
+Load factor = $$\frac{{\text{{number of entries}}}}{{\text{{number of buckets}}}}$$
 ```
 *To maintain good performance, the software makes sure the **load factor never exceeds some constant.***
 
