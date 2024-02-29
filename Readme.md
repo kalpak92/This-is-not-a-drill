@@ -6,6 +6,8 @@
 - [Set](/Hash%20Table/Data%20Structure/Sets.cpp)
 - [Unordered Set](/Hash%20Table/Data%20Structure/UnorderedSet.cpp)
 - [Multi Set](/Hash%20Table/Data%20Structure/MultiSet.cpp)
+- [UnorderedMultiSet](/Hash%20Table/Data%20Structure/UnorderedMultiset.cpp)
+- [Pair](/Hash%20Table/Data%20Structure/Pair.cpp)
 - [Unorderd Map](/Hash%20Table/Data%20Structure/UnorderedMap.cpp)
 - [Unordered MultiMap](/Hash%20Table/Data%20Structure/UnorderedMultimap.cpp)
 - [Ordered Map](/Hash%20Table/Data%20Structure/OrderedMap.cpp)
