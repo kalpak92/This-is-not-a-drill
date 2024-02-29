@@ -29,7 +29,7 @@
 #include <string>
 #include <vector>
 #include <iostream>
-#include <unordered_map>
+#include <unordered_multimap>
 using namespace std;
 
 class Solution {
@@ -45,7 +45,7 @@ public:
     }
 
     vector<int> twoSumDoublePass(vector<int>& nums, int target) {
-        unordered_map<int, int> map;
+        unordered_multimap<int, int> map;
         int size = nums.size();
 
         // build the hash table
@@ -66,7 +66,7 @@ public:
 
     auto twoSumOptimized(vector<int> &nums, int target) -> vector<int>
     {
-        unordered_map<int, int> map; // Stores number as key and index as value
+        unordered_multimap<int, int> map; // Stores number as key and index as value
         int size = nums.size();
 
         for (int i = 0; i < size; i++) {

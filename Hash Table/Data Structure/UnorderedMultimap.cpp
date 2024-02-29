@@ -67,11 +67,18 @@ struct MyHash {
 
 int main() {
     // Key is a string, value is an Edge
-    std::unordered_map<std::string, Edge> mymap;
+    std::unordered_multimap<std::string, Edge> mymap;
 
     // Inserting in the unordered_multimap
     Edge e1(1, 1);
     mymap.insert({"string", e1});
+
+    Edge e2(2, 2);
+    Edge e3(3, 3);
+    
+    // Inserting using the insert operator
+    mymap.insert({"edge2", e2});
+    mymap.insert({"edge3", e3});
 
     for (std::unordered_multimap<std::string, Edge>::iterator it = mymap.begin(); it != mymap.end(); it++) {
         std::cout << it->first << " => " << it->second << std::endl;
@@ -87,21 +94,26 @@ int main() {
         std::cout << key << " => " << value << std::endl;
     }
 
-    Edge e2(2, 2);
-    Edge e3(3, 3);
-    
-    // Inserting using the subscript operator
-    mymap["edge2"] = e2;
-    mymap["edge3"] = e3;
+    mymap.insert({"edge4", e3});
+    mymap.insert({"edge4", e2});
+    mymap.insert({"edge4", e1});
 
     for (auto const& [key, value] : mymap) {
         std::cout << key << " => " << value << std::endl;
     }
 
+    std::cout << "Print elements within a range\n";
+    auto range = mymap.equal_range("edge4");
+    auto start = range.first;
+    auto end = range.second;
+    for (; start != end; start++) {
+        std::cout << start->first << " => " << start->second << std::endl;
+    }
+    std::cout << "======================\n";
     // Erase some elements
     mymap.erase("edge2");
 
-    std::unordered_map<std::string, Edge>::iterator it = mymap.begin();
+    std::unordered_multimap<std::string, Edge>::iterator it = mymap.begin();
     mymap.erase(it);
 
     for (auto const& [key, value] : mymap) {
@@ -109,7 +121,7 @@ int main() {
     }
 
     Edge e4(99, 100);
-    mymap["edge3"] = e4;
+    mymap.insert({"edge3", e4});
     for (auto const& [key, value] : mymap) {
         std::cout << key << " => " << value << std::endl;
     }
@@ -122,7 +134,7 @@ int main() {
     std::cout << "mymap has " << mymap.bucket_count() << " buckets." << std::endl;
     std::cout << "mymap has " << mymap.load_factor() << " load factor." << std::endl;
 
-    std::unordered_map<Edge, std::string, MyHash> mymap2;
+    std::unordered_multimap<Edge, std::string, MyHash> mymap2;
     Edge edgeTest(100, 100);
     mymap2.insert({edgeTest, "Edge 100"});
 
