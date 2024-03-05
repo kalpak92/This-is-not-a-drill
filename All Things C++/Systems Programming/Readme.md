@@ -10,3 +10,5 @@
   - [Linked List of Lists](./C%20Fundamentals/Data%20Structures/listOfLinkedList.c)
   - [Binary Search Trees](./C%20Fundamentals/Data%20Structures/BinarySearchTree/)
   - [Complex Number](./C%20Fundamentals/Data%20Structures/Complex%20Number/)
+- Header Guards
+- Linkage
