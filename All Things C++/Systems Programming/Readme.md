@@ -23,3 +23,4 @@
 - [Pointers and References](./C++%20Fundamentals/Pointers%20and%20References/)
 - [Const](./C++%20Fundamentals/Const/)
 - [Class](./C++%20Fundamentals/Classes/)
+- [Constructor Insanity](./C++%20Fundamentals/Classes/Constructors/)
