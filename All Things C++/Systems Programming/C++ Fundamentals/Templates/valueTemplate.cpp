@@ -17,10 +17,10 @@ T* varray(const T &val) {
 }
 
 int main(int argc, char **argv) {
-  int *ip = varray<int,10>(17);
-  std::string *sp = varray<std::string,17>("hello");
+    int *ip = varray<int,10>(17);
+    std::string *sp = varray<std::string,17>("hello");
 
-  delete[] ip;
-  delete[] sp;
-  return EXIT_SUCCESS;
+    delete[] ip;
+    delete[] sp;
+    return EXIT_SUCCESS;
 }

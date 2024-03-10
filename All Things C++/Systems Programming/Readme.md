@@ -25,3 +25,4 @@
 - [Class](./C++%20Fundamentals/Classes/)
 - [Constructor Insanity](./C++%20Fundamentals/Classes/Constructors/)
 - [Heap Allocation](./C++%20Fundamentals/Classes/StringArray.cpp)
+- [Templates](./C++%20Fundamentals/Templates/) 

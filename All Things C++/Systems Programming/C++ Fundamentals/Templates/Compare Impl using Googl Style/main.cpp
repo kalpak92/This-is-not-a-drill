@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(int argc, char **argv) {
-  cout << compare<int>(10, 20);
-  cout << endl;
-  return EXIT_SUCCESS;
+    cout << compare<int>(10, 20);
+    cout << endl;
+    return EXIT_SUCCESS;
 }
