@@ -27,4 +27,4 @@
 - [Heap Allocation](./C++%20Fundamentals/Classes/StringArray.cpp)
 - [Templates](./C++%20Fundamentals/Templates/)
 - [Standard Template Library](./C++%20Fundamentals/Standard%20Template%20Library/)
-- 
+- [Inheritance](./C++%20Fundamentals/Inheritance/)
