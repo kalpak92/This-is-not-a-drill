@@ -6,6 +6,10 @@ typedef struct {
     int a, b; 
 } IntPair;
 
+/**
+ * Demonstrates the use of the get(), operator*, operator->, reset(), and release() methods of std::unique_ptr.
+*/
+
 int main(int argc, char **argv) {
     unique_ptr<int> x(new int(5));
 
