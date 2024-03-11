@@ -29,3 +29,5 @@
 - [Standard Template Library](./C++%20Fundamentals/Standard%20Template%20Library/)
 - [Inheritance](./C++%20Fundamentals/Inheritance/)
 - [Casting](./C++%20Fundamentals/Casting/)
+- [Smart Pointers](./C++%20Fundamentals/Smart%20Pointers/)
+  - [Unique Pointers](./C++%20Fundamentals/Smart%20Pointers/Unique%20Ptr/)
