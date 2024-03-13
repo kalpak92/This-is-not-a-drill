@@ -31,3 +31,5 @@
 - [Casting](./C++%20Fundamentals/Casting/)
 - [Smart Pointers](./C++%20Fundamentals/Smart%20Pointers/)
   - [Unique Pointers](./C++%20Fundamentals/Smart%20Pointers/Unique%20Ptr/)
+  - [Shared Pointers](./C++%20Fundamentals/Smart%20Pointers/Shared%20Ptr/)
+  - [Weak Pointers](./C++%20Fundamentals/Smart%20Pointers/Shared%20Ptr/Weak%20Ptr/)
