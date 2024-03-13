@@ -7,7 +7,8 @@
 
 ## Hash Table
 
-### Data Structures
+<details>
+    <summary>Data Structures</summary>
 
 - [Set](/Hash%20Table/Data%20Structure/Sets.cpp)
 - [Unordered Set](/Hash%20Table/Data%20Structure/UnorderedSet.cpp)
@@ -18,6 +19,8 @@
 - [Unordered MultiMap](/Hash%20Table/Data%20Structure/UnorderedMultimap.cpp)
 - [Ordered Map](/Hash%20Table/Data%20Structure/OrderedMap.cpp)
 - [Multi Map](/Hash%20Table/Data%20Structure/MultiMap.cpp)
+
+</details>
 
 ### Problems
 
