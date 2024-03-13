@@ -1,8 +1,14 @@
 # Interview Prep - 2024
 
+## Systems Programming
+
+- [Fundamentals in C](./All%20Things%20C++/Systems%20Programming/C%20Fundamentals/)
+- [Going over C++](./All%20Things%20C++/Systems%20Programming/C++%20Fundamentals/)
+
 ## Hash Table
 
 ### Data Structures
+
 - [Set](/Hash%20Table/Data%20Structure/Sets.cpp)
 - [Unordered Set](/Hash%20Table/Data%20Structure/UnorderedSet.cpp)
 - [Multi Set](/Hash%20Table/Data%20Structure/MultiSet.cpp)
