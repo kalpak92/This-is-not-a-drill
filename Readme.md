@@ -5,6 +5,15 @@
 - [Fundamentals in C](./All%20Things%20C++/Systems%20Programming/C%20Fundamentals/)
 - [Going over C++](./All%20Things%20C++/Systems%20Programming/C++%20Fundamentals/)
 
+## Stack
+
+<details>
+    <summary>Data Structures</summary>
+
+- [Stack]
+
+</details>
+
 ## Hash Table
 
 <details>
