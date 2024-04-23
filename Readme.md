@@ -10,7 +10,26 @@
 <details>
     <summary>Data Structures</summary>
 
-- [Stack]
+- [Stack](./Stack/Data%20Structure/Stack.cpp)
+- [Stack using a vector](./Stack/Data%20Structure/StackUsingVector.cpp)
+
+</details>
+
+## Queue
+
+<details>
+    <summary>Data Structures</summary>
+
+- [Queue](./Queue/Data%20Structure/Queue.cpp)
+
+</details>
+
+## Priority Queue
+
+<details>
+    <summary>Data Structures</summary>
+
+- [Priority Queue](./Priority%20Queue/Data%20Structure/PriorityQueue.cpp)
 
 </details>
 
