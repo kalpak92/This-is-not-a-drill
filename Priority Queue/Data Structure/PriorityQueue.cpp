@@ -24,6 +24,23 @@
 
 #include <iostream>
 #include <queue>
+#include <vector>
+
+struct Edge {
+    int v1;
+    int v2;
+
+    Edge(int _v1, int _v2) : v1(_v1), v2(_v2) {}
+};
+
+struct EdgeCompare {
+    bool operator()(const Edge& e1, const Edge& e2) const {
+        int e1Sum = e1.v1 + e1.v2;
+        int e2Sum = e2.v1 + e2.v2;
+        return e1Sum < e2Sum;
+    }
+};
+
 
 int main() {
     std::priority_queue<int> myPriorityQueue;
@@ -37,5 +54,33 @@ int main() {
     myPriorityQueue.pop();
     std::cout << "Top element after pop: " << myPriorityQueue.top() << std::endl;
 
+    std::cout << "Priority Queue using custom comparator" << std::endl;
+
+    std::priority_queue<Edge, std::vector<Edge>, EdgeCompare> edges;
+    edges.push(Edge(1, 2));
+    edges.push(Edge(2, 3));
+    edges.push(Edge(3, 4));
+
+    while (!edges.empty())
+    {
+        Edge topEdge = edges.top();
+        std::cout << "Top element: " << topEdge.v1 << ", " << topEdge.v2 << std::endl;
+        edges.pop();
+    }
+
+    // Using lambda to compare elements.
+    std::cout << "Priority Queue using lambda comparator" << std::endl;
+    const auto data = {1, 8, 5, 6, 3, 4, 0, 9, 7, 2};
+    auto cmp = [](int left, int right) { return (left ^ 1) < (right ^ 1); };
+    std::priority_queue<int, std::vector<int>, decltype(cmp)> lambda_priority_queue(cmp);
+ 
+    for (int n : data)
+        lambda_priority_queue.push(n);
+
+    while (!lambda_priority_queue.empty()) {
+        std::cout << lambda_priority_queue.top() << ' ';
+        lambda_priority_queue.pop();
+    }
+    
     return 0;
 }
