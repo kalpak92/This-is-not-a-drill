@@ -1,25 +1,13 @@
 /**
- * The std::stack is a container adaptor that provides a LIFO (Last-In-First-Out) data structure.
- * The basic operations of a stack are:
- *     - Push: Adds an element to the top of the stack.
- *     - Pop: Removes the top element from the stack.
- *     - Top: Accesses the top element of the stack.
- *     - Empty: Checks if the stack is empty.
- * 
- * The class template acts as a wrapper to the underlying container - only a specific set of functions is provided. 
- * The stack pushes and pops the element from the back of the underlying container, known as the top of the stack.
+ * Stack using vector as the underlying container.
 */
-
-// template<
-//     class T,
-//     class Container = std::deque<T>
-// > class stack;
 
 #include <iostream>
 #include <stack>
+#include <vector>
 
 // Print a stack
-void printStack(std::stack<int> s) {
+void printStack(std::stack<int, std::vector<int>> s) {
     while (!s.empty()) {
         std::cout << s.top() << " ";
         s.pop();
@@ -28,7 +16,7 @@ void printStack(std::stack<int> s) {
 }
 
 int main() {
-    std::stack<int> myStack;
+    std::stack<int, std::vector<int>> myStack;
 
     // Pushing elements into the stack
     myStack.push(1);
@@ -48,6 +36,6 @@ int main() {
     }
 
     std::cout << "Printing elements in myStack3" << std::endl;
-    std::stack<int> myStack3({-3, -2, -1, 0}); // Initialize stack with elements
+    std::stack<int, std::vector<int>> myStack3({-3, -2, -1, 0}); // Initialize stack with elements
     printStack(myStack3);
 }
