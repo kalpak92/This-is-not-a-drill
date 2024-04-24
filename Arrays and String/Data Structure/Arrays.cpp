@@ -17,6 +17,7 @@
 // > struct array;
 
 #include <iostream>
+#include <algorithm>
 #include <array>
 
 void PrintArray(std::array<int, 4> param) {
