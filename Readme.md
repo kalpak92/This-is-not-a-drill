@@ -5,6 +5,17 @@
 - [Fundamentals in C](./All%20Things%20C++/Systems%20Programming/C%20Fundamentals/)
 - [Going over C++](./All%20Things%20C++/Systems%20Programming/C++%20Fundamentals/)
 
+## Arrays
+
+<details>
+    <summary>Data Structures</summary>
+
+- [Arrays](./Arrays%20and%20String/Data%20Structure/Arrays.cpp)
+- [String](./Arrays%20and%20String/Data%20Structure/String.cpp)
+- [Vector](./Arrays%20and%20String/Data%20Structure/Vectors.cpp)
+- [List](./Arrays%20and%20String/Data%20Structure/List.cpp)
+- [Forward List](./Arrays%20and%20String/Data%20Structure/ForwardList.cpp)
+
 ## Stack
 
 <details>
@@ -21,6 +32,7 @@
     <summary>Data Structures</summary>
 
 - [Queue](./Queue/Data%20Structure/Queue.cpp)
+- [Deque](./Queue/Data%20Structure/Deque.cpp)
 
 </details>
 
