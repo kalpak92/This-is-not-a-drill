@@ -16,6 +16,8 @@
 - [List](./Arrays%20and%20String/Data%20Structure/List.cpp)
 - [Forward List](./Arrays%20and%20String/Data%20Structure/ForwardList.cpp)
 
+</details>
+
 ## Stack
 
 <details>
