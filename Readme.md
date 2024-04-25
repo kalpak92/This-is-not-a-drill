@@ -2,8 +2,10 @@
 
 ## Systems Programming
 
-- [Fundamentals in C](./All%20Things%20C++/Systems%20Programming/C%20Fundamentals/)
-- [Going over C++](./All%20Things%20C++/Systems%20Programming/C++%20Fundamentals/)
+- [Fundamentals in C](./All%20Things%20CompSci/Systems%20Programming/C%20Fundamentals/)
+- [Going over C++](./All%20Things%20CompSci/Systems%20Programming/C++%20Fundamentals/)
+- [Concurrency](./All%20Things%20CompSci/Systems%20Programming/Concurrency/)
+- [Systems Under the Hood](./All%20Things%20CompSci/Systems%20Programming/How%20things%20Work/)
 
 ## Arrays
 
