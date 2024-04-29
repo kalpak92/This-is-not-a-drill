@@ -60,4 +60,6 @@ int main() {
         std::cout << itr.first << " : " << itr.second << std::endl;
     }
 
+    return 0;
+
 }
