@@ -26,10 +26,11 @@
  * Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 */
 
+#include <iostream>
 #include <string>
 #include <vector>
-#include <iostream>
-#include <unordered_multimap>
+#include <unordered_map>
+
 using namespace std;
 
 class Solution {
@@ -45,7 +46,7 @@ public:
     }
 
     vector<int> twoSumDoublePass(vector<int>& nums, int target) {
-        unordered_multimap<int, int> map;
+        std::unordered_map<int, int> map;
         int size = nums.size();
 
         // build the hash table
@@ -66,7 +67,7 @@ public:
 
     auto twoSumOptimized(vector<int> &nums, int target) -> vector<int>
     {
-        unordered_multimap<int, int> map; // Stores number as key and index as value
+        unordered_map<int, int> map; // Stores number as key and index as value
         int size = nums.size();
 
         for (int i = 0; i < size; i++) {
