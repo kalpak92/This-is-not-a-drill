@@ -58,6 +58,25 @@ public:
         }
         return insertIdx;
     }
+
+    int removeDuplicatesII(vector<int>& nums) {
+        if(nums.size() < 3)
+            return nums.size();
+
+        int insertIdx = 1; // since element at index 0 is always part of the solution
+
+        for(int i = 1; i < nums.size(); i++) {
+            // Compare the current element at i with insertIdx - 2
+            // If they are the same, that means there's already two occurrences of this element
+            // So skip adding it.
+            // If different, add the current element to the modified array at insertIdx and increment it.
+            if (insertIdx == 1 || nums[i] != nums[insertIdx - 2]) {
+                nums[insertIdx] = nums[i];
+                insertIdx++;
+            }
+        }
+        return insertIdx;
+    }
 };
 
 void printArray(const vector<int>& nums) {

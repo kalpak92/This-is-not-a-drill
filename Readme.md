@@ -25,7 +25,6 @@
 - [X] [Two Sum on a Sorted Array](./Arrays%20and%20String/Two%20Pointer%20problems/TwoSumSortedArray.cpp)
 - [X] [Remove duplicates from a sorted array](./Arrays%20and%20String/Two%20Pointer%20problems/RemoveDuplicatesFromSortedArray.cpp)
 - [X] [Remove duplicates from a sorted array with each element AT MOST TWICE](./Arrays%20and%20String/Two%20Pointer%20problems/RemoveDuplicatesFromSortedArrayWithEachElementAtMostTwice.cpp)
-- 
 
 ## Stack
 
