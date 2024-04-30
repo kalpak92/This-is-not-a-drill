@@ -23,6 +23,7 @@
 ### Two Pointer problems
 
 - [X] [Two Sum on a Sorted Array](./Arrays%20and%20String/Two%20Pointer%20problems/TwoSumSortedArray.cpp)
+- [X] [Remove duplicates from a sorted array](./Arrays%20and%20String/Two%20Pointer%20problems/RemoveDuplicatesFromSortedArray.cpp)
 
 ## Stack
 
