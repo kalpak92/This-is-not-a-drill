@@ -25,6 +25,10 @@
 - [X] [Two Sum on a Sorted Array](./Arrays%20and%20String/Two%20Pointer%20problems/TwoSumSortedArray.cpp)
 - [X] [Remove duplicates from a sorted array](./Arrays%20and%20String/Two%20Pointer%20problems/RemoveDuplicatesFromSortedArray.cpp)
 - [X] [Remove duplicates from a sorted array with each element AT MOST TWICE](./Arrays%20and%20String/Two%20Pointer%20problems/RemoveDuplicatesFromSortedArrayWithEachElementAtMostTwice.cpp)
+- [X] [Valid Palindrome](./Arrays%20and%20String/Two%20Pointer%20problems/ValidPalindrome.cpp)
+- [X] [Valid Palindrome by deleting at most one character](./Arrays%20and%20String/Two%20Pointer%20problems/ValidPalindromeByDeletingAtMostOneCharacter.cpp)
+- [X] [Valid Palindrome by swapping at most two characters](./Arrays%20and%20String/Two%20Pointer%20problems/ValidPalindromeBySwappingAtMostTwoCharacters.cpp)
+- 
 
 ## Stack
 
