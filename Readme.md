@@ -28,7 +28,8 @@
 - [X] [Valid Palindrome](./Arrays%20and%20String/Two%20Pointer%20problems/ValidPalindrome.cpp)
 - [X] [Valid Palindrome by deleting at most one character](./Arrays%20and%20String/Two%20Pointer%20problems/ValidPalindromeByDeletingAtMostOneCharacter.cpp)
 - [X] [Valid Palindrome by swapping at most two characters](./Arrays%20and%20String/Two%20Pointer%20problems/ValidPalindromeBySwappingAtMostTwoCharacters.cpp)
-- 
+- [X] [Three Sum](./Arrays%20and%20String/Two%20Pointer%20problems/ThreeSum.cpp)
+- [X] [Merge Sorted Arrays](./Arrays%20and%20String/Two%20Pointer%20problems/MergeSortedArrays.cpp)
 
 ## Stack
 
