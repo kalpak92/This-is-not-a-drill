@@ -33,6 +33,7 @@
 - [X] [Three Sum Triplets smaller than a given target](./Arrays%20and%20String/Two%20Pointer%20problems/ThreeSumTripletsLessThanTarget.cpp)
 - [X] [Container with Most Water](./Arrays%20and%20String/Two%20Pointer%20problems/ContainerWithMostWater.cpp)
 - [X] [Trapping Rain Water](./Arrays%20and%20String/Two%20Pointer%20problems/TrappingRainWater.cpp)
+- [X] [Move Zeros to the end of an array](./Arrays%20and%20String/Two%20Pointer%20problems/MoveZeros.cpp)
 - [X] [Squares of Sorted Array](./Arrays%20and%20String/Two%20Pointer%20problems/SquaresOfSortedArray.cpp)
 - [X] [Merge Sorted Arrays](./Arrays%20and%20String/Two%20Pointer%20problems/MergeSortedArrays.cpp)
 - [X] [Intersection of Two Arrays](./Arrays%20and%20String/Two%20Pointer%20problems/IntersectionOfTwoArrays.cpp)
