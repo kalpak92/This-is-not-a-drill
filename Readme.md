@@ -31,8 +31,11 @@
 - [X] [Three Sum](./Arrays%20and%20String/Two%20Pointer%20problems/ThreeSum.cpp)
 - [X] [Three Sum closest to a given target](./Arrays%20and%20String/Two%20Pointer%20problems/ThreeSumClosestToTarget.cpp)
 - [X] [Three Sum Triplets smaller than a given target](./Arrays%20and%20String/Two%20Pointer%20problems/ThreeSumTripletsLessThanTarget.cpp)
+- [X] [Container with Most Water](./Arrays%20and%20String/Two%20Pointer%20problems/ContainerWithMostWater.cpp)
+- [X] [Trapping Rain Water](./Arrays%20and%20String/Two%20Pointer%20problems/TrappingRainWater.cpp)
 - [X] [Merge Sorted Arrays](./Arrays%20and%20String/Two%20Pointer%20problems/MergeSortedArrays.cpp)
 - [X] [Next Permutation](./Arrays%20and%20String/Two%20Pointer%20problems/NextPermutaion.cpp)
+
 ## Stack
 
 <details>
