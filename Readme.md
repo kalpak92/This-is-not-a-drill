@@ -39,6 +39,8 @@
 - [X] [Intersection of Two Arrays](./Arrays%20and%20String/Two%20Pointer%20problems/IntersectionOfTwoArrays.cpp)
 - [X] [Dot product of Sparse Vectors](./Hash%20Table/DotProductOfSparseVector.cpp)
 - [X] [Next Permutation](./Arrays%20and%20String/Two%20Pointer%20problems/NextPermutaion.cpp)
+- [X] [Product of Two Run Length Encoded Array](./Arrays%20and%20String/Two%20Pointer%20problems/ProductOfTwoRunLenghtEncodedArray.cpp)
+- [X] [Number of friend requests made for given conditions](./Arrays%20and%20String/Two%20Pointer%20problems/NumberOfFriendRequests.cpp)
 
 ## Stack
 
