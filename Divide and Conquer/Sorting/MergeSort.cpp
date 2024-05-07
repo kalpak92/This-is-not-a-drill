@@ -1,9 +1,10 @@
 #include <iostream>
+#include <array>
 using namespace std;
 
 class MergeSort {
 public:
-    void sort(int arr[], int left, int right) {
+    void sort(array<int, 6>& arr, int left, int right) {
         if (left < right) {
             // Find the middle point
             int mid = (left + right) / 2;
@@ -18,14 +19,14 @@ public:
     }
 
 private:
-    void merge(int arr[], int left, int mid, int right)  {
+    void merge(array<int, 6>& arr, int left, int mid, int right)  {
         // Find sizes of two sub-arrays to be merged
         int n1 = mid - left + 1;
         int n2 = right - mid;
 
         // Create temp arrays
-        int L[n1];
-        int R[n2];
+        array<int, 100> L;
+        array<int, 100> R;
 
         // Copy data to temp arrays
         for (int i = 0; i < n1; i++)
@@ -69,24 +70,24 @@ private:
     }
 };
 
-void printArray(int arr[], int size) {
-    for (int i = 0; i < size; i++)
+void printArray(array<int, 6>& arr) {
+    for (int i = 0; i < arr.size(); i++)
         cout << arr[i] << " ";
     cout << endl;
 }
 
 int main() {
 
-    int arr[] = { 12, 11, 13, 5, 6, 7 };
-    int arr_size = sizeof(arr) / sizeof(arr[0]);
+    array<int, 6> arr = { 12, 11, 13, 5, 6, 7 };
+    int arr_size = arr.size();
 
     cout << "Given array is \n";
-    printArray(arr, arr_size);
+    printArray(arr);
 
     MergeSort().sort(arr, 0, arr_size - 1);
 
     cout << "\nSorted array is \n";
-    printArray(arr, arr_size);
+    printArray(arr);
     return 0;
 
 }
