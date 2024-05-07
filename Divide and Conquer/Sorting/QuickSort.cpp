@@ -24,8 +24,9 @@ private:
         int pivotIndex = start;
 
         for (int i = start; i < end; i++) {
-            if (nums[i] <= pivot) {         // Sort in ascending order
+            if (nums[i] <= pivot) {             // Sort in ascending order
                 swap(nums, i, pivotIndex);      // swap(nums[i], nums[pivotIndex]
+                // std::swap(nums[i], nums[pivotIndex]);
                 pivotIndex++;
             }
         }
@@ -42,9 +43,9 @@ private:
     }
 };
 
-void printVector(vector<int>& nums) {
-    for (int i = 0; i < nums.size(); i++) {
-        cout << nums[i] << " ";
+void printVector(const vector<int>& nums) {
+    for (const auto& num : nums) {
+        cout << num << " ";
     }
     cout << "\n";
 }
