@@ -71,6 +71,10 @@
 
 </details>
 
+### Problems
+
+- [X] [Kth Largest element in an Array](./Priority%20Queue/KthLargestElementInAnArray.cpp)
+
 ## Hash Table
 
 <details>
