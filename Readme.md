@@ -110,3 +110,5 @@
 ### Quick Select
 
 - [X] [Kth Largest element in an Array](./Priority%20Queue/KthLargestElementInAnArray.cpp)
+- [X] [Kth Largest Integer in an Array](./Priority%20Queue/KthLargestIntegerInAnArray.cpp)
+- [X] [Kth Largest Element in Stream](./Priority%20Queue/KthLargestElementInStream.cpp)
