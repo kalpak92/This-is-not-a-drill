@@ -105,3 +105,8 @@
 - [X] [Insertion Sort](/Divide%20and%20Conquer/Sorting/InsertionSort.cpp)
 - [X] [Linked List Insertion Sort](./Divide%20and%20Conquer/Sorting/InsertionSortList.cpp)
 - [X] [Merge Sort](./Divide%20and%20Conquer/Sorting/MergeSort.cpp)
+- [X] [Quick Sort](./Divide%20and%20Conquer/Sorting/QuickSort.cpp)
+
+### Quick Select
+
+- [X] [Kth Largest element in an Array](./Priority%20Queue/KthLargestElementInAnArray.cpp)
