@@ -62,17 +62,11 @@ public:
 
 private:
     int partition(vector<int>& nums, int start, int end) {
-        // Generate a random number between start and end
-        srand(time(0));
-        int randomIndex = start + rand() % (end - start + 1);
-
-        // Swap the element at the random index with the element at the end
-        swap(nums[randomIndex], nums[end]);
-
         int pivot = nums[end];
         int pivotIndex = start;
 
-        for (int i = start; i < end; i++) {     // note that pivot is set to nums[end] and we run the loop till nums[end] - 1
+        for (int i = start; i < end; i++) {     
+            // note that pivot is set to nums[end] and we run the loop till nums[end] - 1
             if (nums[i] >= pivot) {
                 // Candidate nums[i] is greater than pivot
                 // So swap and move it ahead (which is the pivotIndex)
