@@ -1,32 +1,37 @@
 #include <iostream>
-#include <array>
+#include <vector>
 using namespace std;
 
 class MergeSort {
 public:
-    void sort(array<int, 6>& arr, int left, int right) {
+    vector<int> sortArray(vector<int>& nums) {
+        mergeSortArray(nums, 0, nums.size() - 1);
+        return nums;
+    }
+
+private: 
+      void mergeSortArray(vector<int>& nums, int left, int right) {
         if (left < right) {
             // Find the middle point
             int mid = (left + right) / 2;
 
             // Sort first and second halves
-            sort(arr, left, mid);
-            sort(arr, mid + 1, right);
+            mergeSortArray(nums, left, mid);
+            mergeSortArray(nums, mid + 1, right);
 
             // Merge the sorted halves
-            merge(arr, left, mid, right);
+            merge(nums, left, mid, right);
         }
     }
 
-private:
-    void merge(array<int, 6>& arr, int left, int mid, int right)  {
+    void merge(vector<int>& arr, int left, int mid, int right)  {
         // Find sizes of two sub-arrays to be merged
         int n1 = mid - left + 1;
         int n2 = right - mid;
 
         // Create temp arrays
-        array<int, 100> L;
-        array<int, 100> R;
+        vector<int> L(n1);
+        vector<int> R(n2);
 
         // Copy data to temp arrays
         for (int i = 0; i < n1; i++)
@@ -70,24 +75,23 @@ private:
     }
 };
 
-void printArray(array<int, 6>& arr) {
-    for (int i = 0; i < arr.size(); i++)
-        cout << arr[i] << " ";
+void printVector(vector<int>& nums) {
+    for (int i = 0; i < nums.size(); i++)
+        cout << nums[i] << " ";
     cout << endl;
 }
 
 int main() {
 
-    array<int, 6> arr = { 12, 11, 13, 5, 6, 7 };
-    int arr_size = arr.size();
-
+    vector<int> nums{ 12, 11, 13, 5, 6, 7 };
+    
     cout << "Given array is \n";
-    printArray(arr);
+    printVector(nums);
 
-    MergeSort().sort(arr, 0, arr_size - 1);
+    MergeSort().sortArray(nums);
 
     cout << "\nSorted array is \n";
-    printArray(arr);
+    printVector(nums);
     return 0;
 
 }
