@@ -106,6 +106,7 @@
 - [X] [Linked List Insertion Sort](./Divide%20and%20Conquer/Sorting/InsertionSortList.cpp)
 - [X] [Merge Sort](./Divide%20and%20Conquer/Sorting/MergeSort.cpp)
 - [X] [Quick Sort](./Divide%20and%20Conquer/Sorting/QuickSort.cpp)
+- [X] [Heap Sort](./Divide%20and%20Conquer/Sorting/HeapSort.cpp)
 
 ### Quick Select
 
