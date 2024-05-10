@@ -111,6 +111,7 @@
 - [X] [Merge Sort](./Divide%20and%20Conquer/Sorting/MergeSort.cpp)
 - [X] [Quick Sort](./Divide%20and%20Conquer/Sorting/QuickSort.cpp)
 - [X] [Heap Sort](./Divide%20and%20Conquer/Sorting/HeapSort.cpp)
+- [X] [Stable Sort](./Divide%20and%20Conquer/Sorting/StableSort.cpp)
 
 ### Quick Select
 
