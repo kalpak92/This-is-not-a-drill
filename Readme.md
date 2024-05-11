@@ -114,6 +114,8 @@
 - [X] [Heap Sort](./Divide%20and%20Conquer/Sorting/HeapSort.cpp)
 - [X] [Stable Sort](./Divide%20and%20Conquer/Sorting/StableSort.cpp)
 
+- [X] [K closest point to origin](/Priority%20Queue/KClosestPointsToOrigin.cpp)
+
 ### Quick Select
 
 - [X] [Kth Largest element in an Array](./Priority%20Queue/KthLargestElementInAnArray.cpp)
