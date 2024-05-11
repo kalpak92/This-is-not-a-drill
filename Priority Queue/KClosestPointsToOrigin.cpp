@@ -137,6 +137,5 @@ int main() {
     cout << "The k closest points to the origin are: ";
     printVector(s.kClosestUsingNthElement(points, k));
 
-
     return 0;
 }

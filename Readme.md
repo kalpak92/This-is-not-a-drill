@@ -122,3 +122,4 @@
 - [X] [Kth Largest Integer in an Array](./Priority%20Queue/KthLargestIntegerInAnArray.cpp)
 - [X] [Kth Largest Element in Stream](./Priority%20Queue/KthLargestElementInStream.cpp)
 - [X] [Top K frequent elements](./Priority%20Queue/TopKFrequentElements.cpp)
+- [X] [K closest point to origin](/Priority%20Queue/KClosestPointsToOrigin.cpp)
