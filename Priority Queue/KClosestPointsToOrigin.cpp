@@ -24,6 +24,7 @@
 
 #include <iostream>
 #include <vector>
+#include <queue>
 #include <algorithm>
 
 using namespace std;
@@ -75,6 +76,36 @@ public:
         // can return the output in any order
         return vector<vector<int>>(points.begin(), points.begin() + k);
     }
+
+    /**
+     * Approach: Using Max Heap
+     * We can use a max heap to store the k closest points to the origin.
+     * We iterate through the points and push them into the max heap.
+     * If the size of the max heap exceeds k, we pop the top element.
+     * 
+     * The comparator function is used to compare the euclidean distance of two points.
+    */
+
+    vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
+        auto euclidDistanceCompare = [](vector<int>& p, vector<int>& q) {
+            return p[0] * p[0] + p[1] * p[1] < q[0] * q[0] + q[1] * q[1];
+        };
+        priority_queue<vector<int>, vector<vector<int>>, decltype(euclidDistanceCompare)> maxHeap(euclidDistanceCompare);
+        vector<vector<int>> result;
+
+        for (const auto& point : points) {
+            maxHeap.push(point);
+
+            if (maxHeap.size() > k)
+                maxHeap.pop();
+        }
+        
+        while (!maxHeap.empty()) {
+            result.push_back(maxHeap.top());
+            maxHeap.pop();
+        }
+        return result;
+    }
 };
 
 void printVector(const vector<vector<int>>& v) {
@@ -105,7 +136,7 @@ int main() {
     printVector(points);
     cout << "The k closest points to the origin are: ";
     printVector(s.kClosestUsingNthElement(points, k));
-    
+
 
     return 0;
 }
