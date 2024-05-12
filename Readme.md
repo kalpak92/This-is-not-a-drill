@@ -116,6 +116,7 @@
 - [X] [Stable Sort](./Divide%20and%20Conquer/Sorting/StableSort.cpp)
 
 - [X] [Merge Two Sorted Lists](./Divide%20and%20Conquer/MergeTwoSortedLists.cpp)
+- [X] [Merge K Sorted Lists](./Priority%20Queue/MergeKSortedLists.cpp)
 - [X] [K closest point to origin](/Priority%20Queue/KClosestPointsToOrigin.cpp)
 
 ### Quick Select

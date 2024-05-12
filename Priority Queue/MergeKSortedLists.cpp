@@ -40,7 +40,7 @@ public:
 
 class Solution {
 public:
-    ListNode* mergeKLists(vector<ListNode*>& lists) {
+    ListNode* mergeKListsUsingHeaps(vector<ListNode*>& lists) {
         ListNode* result = new ListNode(-1);
         ListNode* current = result;
 
@@ -66,6 +66,43 @@ public:
         }
         return result->next;
     }
+
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+        if (lists.empty())
+            return nullptr;
+
+        int numOfLists = lists.size();
+        int interval = 1;
+
+        while (interval < numOfLists) {
+            for (int i = 0; i < numOfLists - interval; i += interval * 2) {
+                // The step i += interval * 2 ensures that the function merges different pairs of lists.
+                lists[i] = mergeTwoLists(lists[i], lists[i + interval]);
+            }
+            interval *= 2; // Double the interval to merge the next pair of lists
+        }
+        return lists.front();
+    }
+
+private:
+    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
+        ListNode* result = new ListNode(-1);
+        ListNode* current = result;
+
+        while (list1 != nullptr && list2 != nullptr) {
+            if (list1->val < list2->val) {
+                current->next = list1;
+                list1 = list1->next;
+            } else {
+                current->next = list2;
+                list2 = list2->next;
+            }
+            current = current->next;
+        }
+
+        current->next = (list1 == nullptr) ? list2 : list1;
+        return result->next;
+    }
 };
 
 void printList(ListNode* head) {
@@ -88,7 +125,7 @@ int main() {
         printList(list);
     }
     cout << "Merged list: ";
-    ListNode* mergedList = s.mergeKLists(lists);
+    ListNode* mergedList = s.mergeKListsUsingHeaps(lists);
     printList(mergedList);
 
     lists = {};
