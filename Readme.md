@@ -79,6 +79,7 @@
 - [X] [Kth Largest Element in Stream](./Priority%20Queue/KthLargestElementInStream.cpp)
 - [X] [Top K frequent elements](./Priority%20Queue/TopKFrequentElements.cpp)
 - [X] [Top K Frequent Words](./Priority%20Queue/TopKFrequentWords.cpp)
+- [X] [Merge K Sorted Lists](./Priority%20Queue/MergeKSortedLists.cpp)
 
 ## Hash Table
 
@@ -114,6 +115,7 @@
 - [X] [Heap Sort](./Divide%20and%20Conquer/Sorting/HeapSort.cpp)
 - [X] [Stable Sort](./Divide%20and%20Conquer/Sorting/StableSort.cpp)
 
+- [X] [Merge Two Sorted Lists](./Divide%20and%20Conquer/MergeTwoSortedLists.cpp)
 - [X] [K closest point to origin](/Priority%20Queue/KClosestPointsToOrigin.cpp)
 
 ### Quick Select
