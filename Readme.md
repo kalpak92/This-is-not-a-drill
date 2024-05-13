@@ -82,6 +82,8 @@
 - [X] [Merge K Sorted Lists](./Priority%20Queue/MergeKSortedLists.cpp)
 - [X] [Sort an Almost Sorted Array](./Priority%20Queue/SortAnAlmostSortedArray.cpp)
 
+- [X] [Task Scheduler](./Priority%20Queue/TaskScheduler.cpp)
+
 ## Hash Table
 
 <details>
