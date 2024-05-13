@@ -51,6 +51,11 @@ public:
     }
 };
 
+// Time Complexity: O(n log k) : 
+//      O(n) to insert the first k+1 elements into the heap and 
+//      O((n-k-1) log k) to insert the remaining elements into the heap.
+// Space Complexity: O(k) : The size of the heap is k+1.
+
 void printVector(const vector<int>& nums) {
     for (const int& num : nums) {
         cout << num << " ";
