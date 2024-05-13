@@ -80,6 +80,7 @@
 - [X] [Top K frequent elements](./Priority%20Queue/TopKFrequentElements.cpp)
 - [X] [Top K Frequent Words](./Priority%20Queue/TopKFrequentWords.cpp)
 - [X] [Merge K Sorted Lists](./Priority%20Queue/MergeKSortedLists.cpp)
+- [X] [Sort an Almost Sorted Array](./Priority%20Queue/SortAnAlmostSortedArray.cpp)
 
 ## Hash Table
 
