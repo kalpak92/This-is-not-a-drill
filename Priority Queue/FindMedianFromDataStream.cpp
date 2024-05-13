@@ -30,6 +30,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <set>
 
 using namespace std;
 
@@ -74,6 +75,65 @@ private:
     priority_queue<int, vector<int>, greater<int>> upperHalf;   // minHeap
 };
 
+class MedianFinderUsingMultiset {
+public:
+    MedianFinderUsingMultiset() : lowerMedian(dataStream.end()), higherMedian(dataStream.end()) {
+
+    }
+    
+    void addNum(int num) {
+        const size_t prevStreamSize = dataStream.size();
+
+        // insert into the multiset
+        dataStream.insert(num);
+
+        if (prevStreamSize == 0) {
+            lowerMedian = higherMedian = dataStream.begin();
+        } else if (prevStreamSize % 2 == 1) {
+            // previously, there were odd number of elements.
+            // This means that both lowerMedian and higherMedian points to the same element.
+            // Now, there will be even number of elements.
+            // If the num is not equal to the median element, the corresponding median pointer is updated to which side it is updated.
+            if (num < *lowerMedian) {
+                // the number is < current median
+                lowerMedian--;
+            } else {
+                // the number is >= current median
+                higherMedian++;
+            }
+        } else {
+            // previously, there were even number of elements. 
+            // This means the pointers currently point to consecutive elements.
+            // Now, there will be odd number of elements
+            // So, lowerMedian == higherMedian
+            if (num > *lowerMedian && num < *higherMedian) {
+                // the number is between the lower and higher median
+                // num becomes the new median
+                lowerMedian++;
+                higherMedian--;
+            } else if (num >= *higherMedian) {
+                // number is inserted after higherMedian
+                // So increment the lowerMedian and make it point to the higherMedian
+                lowerMedian++;
+            } else {
+                // num <= lowerMedian < higherMedian
+                // Decrement the higherMedian and make it point to the lowerMedian
+                higherMedian--;
+                lowerMedian = higherMedian;
+            }
+        }
+    }
+    
+    double findMedian() {
+        return ((double) *lowerMedian + *higherMedian) * 0.5;
+    }
+
+private:
+    multiset<int> dataStream;
+    multiset<int>::iterator lowerMedian;
+    multiset<int>::iterator higherMedian;
+};
+
 int main() {
     MedianFinder medianFinder = MedianFinder();
     medianFinder.addNum(1);
@@ -81,6 +141,13 @@ int main() {
     cout << "Current median is: " << medianFinder.findMedian() << endl;
     medianFinder.addNum(3);
     cout << "Current median is: " << medianFinder.findMedian() << endl;
+
+    MedianFinderUsingMultiset medianFinderUsingMultiset = MedianFinderUsingMultiset();
+    medianFinderUsingMultiset.addNum(1);
+    medianFinderUsingMultiset.addNum(2);
+    cout << "Current median is: " << medianFinderUsingMultiset.findMedian() << endl;
+    medianFinderUsingMultiset.addNum(3);
+    cout << "Current median is: " << medianFinderUsingMultiset.findMedian() << endl;
 
     return 0;
 }

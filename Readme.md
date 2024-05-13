@@ -42,6 +42,8 @@
 - [X] [Product of Two Run Length Encoded Array](./Arrays%20and%20String/Two%20Pointer%20problems/ProductOfTwoRunLenghtEncodedArray.cpp)
 - [X] [Number of friend requests made for given conditions](./Arrays%20and%20String/Two%20Pointer%20problems/NumberOfFriendRequests.cpp)
 
+- [X] [Find Median from a Data Stream](./Priority%20Queue/FindMedianFromDataStream.cpp)
+
 ## Stack
 
 <details>
