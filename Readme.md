@@ -86,6 +86,8 @@
 
 - [X] [Design Twitter](./Priority%20Queue/DesignTwitter.cpp)
 
+- [X] [Find Median from Data Stream](./Priority%20Queue/FindMedianFromDataStream.cpp)
+
 ## Hash Table
 
 <details>
