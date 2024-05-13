@@ -84,6 +84,8 @@
 
 - [X] [Task Scheduler](./Priority%20Queue/TaskScheduler.cpp)
 
+- [X] [Design Twitter](./Priority%20Queue/DesignTwitter.cpp)
+
 ## Hash Table
 
 <details>
