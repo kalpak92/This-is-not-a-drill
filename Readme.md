@@ -114,6 +114,9 @@
 
 ## Divide and Conquer
 
+<details>
+    <summary>Sorting Algorithms</summary>
+
 - [X] [Insertion Sort](/Divide%20and%20Conquer/Sorting/InsertionSort.cpp)
 - [X] [Linked List Insertion Sort](./Divide%20and%20Conquer/Sorting/InsertionSortList.cpp)
 - [X] [Merge Sort](./Divide%20and%20Conquer/Sorting/MergeSort.cpp)
@@ -121,11 +124,15 @@
 - [X] [Heap Sort](./Divide%20and%20Conquer/Sorting/HeapSort.cpp)
 - [X] [Stable Sort](./Divide%20and%20Conquer/Sorting/StableSort.cpp)
 
+</details>
+
+### Problems
+
 - [X] [Merge Two Sorted Lists](./Divide%20and%20Conquer/MergeTwoSortedLists.cpp)
 - [X] [Merge K Sorted Lists](./Priority%20Queue/MergeKSortedLists.cpp)
 - [X] [K closest point to origin](/Priority%20Queue/KClosestPointsToOrigin.cpp)
 
-### Quick Select
+### Quick Select Problems
 
 - [X] [Kth Largest element in an Array](./Priority%20Queue/KthLargestElementInAnArray.cpp)
 - [X] [Kth Largest Integer in an Array](./Priority%20Queue/KthLargestIntegerInAnArray.cpp)
