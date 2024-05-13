@@ -28,16 +28,18 @@ public:
         /**
          * The idea is to create a min heap of size k+1 and insert the first k+1 elements into the heap.
         */
-        for (int i = 0; i < nums.size(); i++) {
+        for (int i = 0; i <= k; i++) {
             minHeap.push(nums[i]);
+        }
 
-            // If the size of the heap is greater than k, 
-            // then pop the top element from the heap and add it to the result.
-            // The top element of the heap is the minimum element in the heap.
-            if (minHeap.size() > k) {
-                result.push_back(minHeap.top());
-                minHeap.pop();
-            }
+        /**
+         * Then, one by one remove the min element from the heap, and add the next element from the array.
+         * In the end, the heap will have the k+1 elements in sorted order.
+        */
+        for (int i = k + 1; i < nums.size(); i++) {
+            result.push_back(minHeap.top());
+            minHeap.pop();
+            minHeap.push(nums[i]);
         }
 
         // Now, the heap contains the k+1 elements in sorted order.
@@ -53,7 +55,7 @@ public:
 
 // Time Complexity: O(n log k) : 
 //      O(n) to insert the first k+1 elements into the heap and 
-//      O((n-k-1) log k) to insert the remaining elements into the heap.
+//      O((n - (k+1) log k) to insert the remaining elements into the heap.
 // Space Complexity: O(k) : The size of the heap is k+1.
 
 void printVector(const vector<int>& nums) {
