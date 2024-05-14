@@ -46,6 +46,10 @@
 
 - [X] [Find Median from a Data Stream](./Priority%20Queue/FindMedianFromDataStream.cpp)
 
+### Prefix Sum problems
+
+- [X] [Product of array except self](./Arrays%20and%20String/Prefix%20Sum%20problems/ProductOfArrayExceptSelf.cpp)
+
 ## Stack
 
 <details>
@@ -114,6 +118,7 @@
 - [X] [Contains Duplicate](./Hash%20Table/ContainsDuplicate.cpp)
 - [X] [Valid Anagram](./Hash%20Table/ValidAnagram.cpp)
 - [X] [Dot product of Sparse Vectors](./Hash%20Table/DotProductOfSparseVector.cpp)
+- [X] [Relative Sort an Array](./Divide%20and%20Conquer/RelativeSortArray.cpp)
 
 ## Divide and Conquer
 
