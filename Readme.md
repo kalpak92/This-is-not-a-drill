@@ -119,6 +119,7 @@
 - [X] [Valid Anagram](./Hash%20Table/ValidAnagram.cpp)
 - [X] [Dot product of Sparse Vectors](./Hash%20Table/DotProductOfSparseVector.cpp)
 - [X] [Relative Sort an Array](./Divide%20and%20Conquer/RelativeSortArray.cpp)
+- [X] [Valid Sudoku](./Hash%20Table/ValidSudoku.cpp)
 
 ## Divide and Conquer
 
