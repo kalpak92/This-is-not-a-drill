@@ -132,6 +132,7 @@
 - [X] [Quick Sort](./Divide%20and%20Conquer/Sorting/QuickSort.cpp)
 - [X] [Heap Sort](./Divide%20and%20Conquer/Sorting/HeapSort.cpp)
 - [X] [Stable Sort](./Divide%20and%20Conquer/Sorting/StableSort.cpp)
+- [X] [Counting Sort](./Divide%20and%20Conquer/Sorting/CountingSort.cpp)
 
 </details>
 
