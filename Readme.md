@@ -92,7 +92,11 @@
 - [X] [Sort an Almost Sorted Array](./Priority%20Queue/SortAnAlmostSortedArray.cpp)
 - [X] [Task Scheduler](./Priority%20Queue/TaskScheduler.cpp)
 - [X] [Design Twitter](./Priority%20Queue/DesignTwitter.cpp)
+
+#### Two Heap Problems
+
 - [X] [Find Median from Data Stream](./Priority%20Queue/FindMedianFromDataStream.cpp)
+- [X] [Maximize Capital for IPO](./Priority%20Queue/IPO.cpp)
 
 ## Hash Table
 
@@ -150,3 +154,7 @@
 - [X] [Kth Largest Element in Stream](./Priority%20Queue/KthLargestElementInStream.cpp)
 - [X] [Top K frequent elements](./Priority%20Queue/TopKFrequentElements.cpp)
 - [X] [K closest point to origin](/Priority%20Queue/KClosestPointsToOrigin.cpp)
+
+## Greedy
+
+- [X] [Task Scheduler](./Priority%20Queue/TaskScheduler.cpp)
