@@ -97,6 +97,7 @@
 
 - [X] [Find Median from Data Stream](./Priority%20Queue/FindMedianFromDataStream.cpp)
 - [X] [Maximize Capital for IPO](./Priority%20Queue/IPO.cpp)
+- [X] [Sliding Window Median](./Priority%20Queue/SlidingWindowMedian.cpp)
 
 ## Hash Table
 
