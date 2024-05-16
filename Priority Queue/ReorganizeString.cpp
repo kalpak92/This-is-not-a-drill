@@ -80,6 +80,18 @@ public:
     }
 };
 
+/**
+ * The time complexity of the reorganizeString function is O(n log n), where n is the length of the input string s.
+ * 
+ * Here's why:
+ * Counting the frequency of each character in the string takes O(n) time.
+ * Building the max heap with the character frequencies takes O(26 log 26) time, 
+ * which is essentially O(1) because the number of possible characters is constant.
+ * 
+ * In the worst case, each character will be pushed into and popped from the heap once, which takes O(n log n) time.
+ * Therefore, the overall time complexity is dominated by the heap operations, making it O(n log n).
+*/
+
 int main() {
     Solution sol;
     string s = "aab";

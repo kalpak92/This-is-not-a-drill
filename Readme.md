@@ -98,6 +98,7 @@
 - [X] [Design Twitter](./Priority%20Queue/DesignTwitter.cpp)
 - [X] [Meeting Rooms 2](./Priority%20Queue/MeetingRoomII.cpp)
 - [X] [Reorganize String](./Priority%20Queue/ReorganizeString.cpp)
+- [X] [Meeting Rooms III](./Priority%20Queue/MeetingRoomsIII.cpp)
 
 #### Two Heap Problems
 
@@ -166,3 +167,5 @@
 
 - [X] [Task Scheduler](./Priority%20Queue/TaskScheduler.cpp)
 - [X] [Reorganize String](./Priority%20Queue/ReorganizeString.cpp)
+- [X] [Meeting Rooms II](./Priority%20Queue/MeetingRoomII.cpp)
+- [X] [Meeting Rooms III](./Priority%20Queue/MeetingRoomsIII.cpp)
