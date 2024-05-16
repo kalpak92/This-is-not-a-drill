@@ -50,6 +50,10 @@
 
 - [X] [Product of array except self](./Arrays%20and%20String/Prefix%20Sum%20problems/ProductOfArrayExceptSelf.cpp)
 
+### Merge Intervals
+
+- [X] [Meeting Room 2](./Priority%20Queue/MeetingRoomII.cpp)
+
 ## Stack
 
 <details>
@@ -92,6 +96,7 @@
 - [X] [Sort an Almost Sorted Array](./Priority%20Queue/SortAnAlmostSortedArray.cpp)
 - [X] [Task Scheduler](./Priority%20Queue/TaskScheduler.cpp)
 - [X] [Design Twitter](./Priority%20Queue/DesignTwitter.cpp)
+- [X] [Meeting Rooms 2](./Priority%20Queue/MeetingRoomII.cpp)
 
 #### Two Heap Problems
 
