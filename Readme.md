@@ -97,6 +97,7 @@
 - [X] [Task Scheduler](./Priority%20Queue/TaskScheduler.cpp)
 - [X] [Design Twitter](./Priority%20Queue/DesignTwitter.cpp)
 - [X] [Meeting Rooms 2](./Priority%20Queue/MeetingRoomII.cpp)
+- [X] [Reorganize String](./Priority%20Queue/ReorganizeString.cpp)
 
 #### Two Heap Problems
 
@@ -164,3 +165,4 @@
 ## Greedy
 
 - [X] [Task Scheduler](./Priority%20Queue/TaskScheduler.cpp)
+- [X] [Reorganize String](./Priority%20Queue/ReorganizeString.cpp)
