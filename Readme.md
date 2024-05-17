@@ -54,6 +54,19 @@
 
 - [X] [Meeting Room 2](./Priority%20Queue/MeetingRoomII.cpp)
 
+## Linked List
+
+<details>
+    <summary>Data Structures</summary>
+
+- [Basic Linked List Implementation](./Linked%20List/LinkedList.cpp)
+  
+</details>
+
+### Problems
+
+
+
 ## Stack
 
 <details>
