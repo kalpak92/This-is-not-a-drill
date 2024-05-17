@@ -67,6 +67,7 @@
 
 - [X] [Reverse a Linked List](./Linked%20List/ReverseLinkedList.cpp)
 - [X] [Reverse a Linked List from postion a to b](./Linked%20List/ReverseLinkedListII.cpp)
+- [X] [Reverse nodes of a Linked List in groups of K](./Linked%20List/ReverseNodesInKGroup.cpp)
 
 ## Stack
 
