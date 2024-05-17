@@ -53,6 +53,11 @@ public:
     }
 };
 
+/**
+ * Time Complexity: O(n)
+ * Space Complexity: O(n/k) where n is the number of nodes in the linked list and k is the group size.
+*/
+
 int main() {
     Solution solution;
     ListNode* head = new ListNode(1);
@@ -67,6 +72,6 @@ int main() {
         result = result->next;
     }
     std::cout << std::endl;
-    
+
     return 0;
 }
