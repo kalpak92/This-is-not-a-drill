@@ -18,7 +18,7 @@ using namespace std;
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        if (head == nullptr)
+        if (head == nullptr || head->next == nullptr)
             return head;
 
         ListNode* current = head;
@@ -40,6 +40,18 @@ public:
         // Assign head as prev; since current is assigned to nullptr
         head = prev;
         return head;
+    }
+
+    ListNode* reverseListRecursive(ListNode* head) {
+        if (head == nullptr || head->next == nullptr)
+            return head;
+
+        ListNode* reversedList = reverseListRecursive(head->next);
+
+        head->next->next = head;
+        head->next = nullptr;
+
+        return reversedList;
     }
 };
 
