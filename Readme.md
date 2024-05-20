@@ -68,6 +68,7 @@
 - [X] [Reverse a Linked List](./Linked%20List/ReverseLinkedList.cpp)
 - [X] [Reverse a Linked List from postion a to b](./Linked%20List/ReverseLinkedListII.cpp)
 - [X] [Reverse nodes of a Linked List in groups of K](./Linked%20List/ReverseNodesInKGroup.cpp)
+- [X] [Remove nodes from linked list](./Linked%20List/RemoveNodesFromList.cpp)
 - [X] [Linked List Cycle](./Linked%20List/LinkedListCycle.cpp)
 - [X] [Linked List Cycle - Return cycle start point](./Linked%20List/LinkedListCycleII.cpp)
 - [X] [Add two numbers](./Linked%20List/AddTwoNumbers.cpp)
