@@ -65,7 +65,8 @@
 
 ### Problems
 
-- [X] [Remove Duplicates from a linked list](./Linked%20List/RemoveDuplicatesFromLinkedList.cpp)
+- [X] [Remove duplicates from a linked list](./Linked%20List/RemoveDuplicatesFromLinkedList.cpp)
+- [X] [Remove duplicates from a linked list II](./Linked%20List/RemoveDuplicatesFromLinkedListII.cpp)
 - [X] [Reverse a Linked List](./Linked%20List/ReverseLinkedList.cpp)
 - [X] [Reverse a Linked List from postion a to b](./Linked%20List/ReverseLinkedListII.cpp)
 - [X] [Reverse nodes of a Linked List in groups of K](./Linked%20List/ReverseNodesInKGroup.cpp)
