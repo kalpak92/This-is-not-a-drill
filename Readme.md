@@ -73,6 +73,7 @@
 - [X] [Add two numbers](./Linked%20List/AddTwoNumbers.cpp)
 - [X] [Add two numbers II](./Linked%20List/AddTwoNumberII.cpp)
 - [X] [Reorder Linked List](./Linked%20List/ReorderList.cpp)
+- [X] [Remove Nth node from linked list](./Linked%20List/RemoveNthNodeFromList.cpp)
 
 ## Stack
 
