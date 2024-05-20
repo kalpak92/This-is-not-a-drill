@@ -74,6 +74,7 @@
 - [X] [Add two numbers II](./Linked%20List/AddTwoNumberII.cpp)
 - [X] [Reorder Linked List](./Linked%20List/ReorderList.cpp)
 - [X] [Remove Nth node from linked list](./Linked%20List/RemoveNthNodeFromList.cpp)
+- [X] [Copy list with Random Pointer](./Linked%20List/CopyListWithRandomPointer.cpp)
 
 ## Stack
 
