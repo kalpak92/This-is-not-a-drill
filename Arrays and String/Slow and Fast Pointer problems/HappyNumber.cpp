@@ -77,6 +77,15 @@ private:
     }
 };
 
+/**
+ * Time Complexity: O(log n)
+ * The time complexity is O(log n) because we are repeatedly calculating the sum of the squares of the digits of n.
+ * For a number in base 10
+ * The number of digits in a number n is given by log10(n) + 1 ~ log(n)
+ * 
+ * Space Complexity: O(log n)
+ * The space complexity is O(log n) because we are storing the sum of the squares of the digits of n.
+*/
 int main() {
     Solution sol;
     int n = 19;

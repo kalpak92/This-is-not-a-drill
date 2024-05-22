@@ -50,6 +50,9 @@
 
 - [X] [Happy Number](./Arrays%20and%20String/Slow%20and%20Fast%20Pointer%20problems/HappyNumber.cpp)
 - [X] [Find duplicate number](./Arrays%20and%20String/Slow%20and%20Fast%20Pointer%20problems/FindDuplicateNumber.cpp)
+- [X] [Linked List Cycle](./Linked%20List/LinkedListCycle.cpp)
+- [X] [Linked List Cycle - Return cycle start point](./Linked%20List/LinkedListCycleII.cpp)
+- [X] [Middle of Linked List](./Linked%20List/MiddleofLinkedList.cpp)
 
 ### Prefix Sum problems
 
@@ -78,6 +81,7 @@
 - [X] [Remove nodes from linked list](./Linked%20List/RemoveNodesFromList.cpp)
 - [X] [Linked List Cycle](./Linked%20List/LinkedListCycle.cpp)
 - [X] [Linked List Cycle - Return cycle start point](./Linked%20List/LinkedListCycleII.cpp)
+- [X] [Middle of Linked List](./Linked%20List/MiddleofLinkedList.cpp)
 - [X] [Add two numbers](./Linked%20List/AddTwoNumbers.cpp)
 - [X] [Add two numbers II](./Linked%20List/AddTwoNumberII.cpp)
 - [X] [Reorder Linked List](./Linked%20List/ReorderList.cpp)
