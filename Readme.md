@@ -46,6 +46,10 @@
 
 - [X] [Find Median from a Data Stream](./Priority%20Queue/FindMedianFromDataStream.cpp)
 
+### Slow and Fast pointer problems
+
+- [X] [Find duplicate number]()
+
 ### Prefix Sum problems
 
 - [X] [Product of array except self](./Arrays%20and%20String/Prefix%20Sum%20problems/ProductOfArrayExceptSelf.cpp)
