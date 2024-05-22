@@ -48,6 +48,7 @@
 
 ### Slow and Fast pointer problems
 
+- [X] [Happy Number](./Arrays%20and%20String/Slow%20and%20Fast%20Pointer%20problems/HappyNumber.cpp)
 - [X] [Find duplicate number](./Arrays%20and%20String/Slow%20and%20Fast%20Pointer%20problems/FindDuplicateNumber.cpp)
 
 ### Prefix Sum problems
