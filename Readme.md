@@ -48,7 +48,7 @@
 
 ### Slow and Fast pointer problems
 
-- [X] [Find duplicate number]()
+- [X] [Find duplicate number](./Arrays%20and%20String/Slow%20and%20Fast%20Pointer%20problems/FindDuplicateNumber.cpp)
 
 ### Prefix Sum problems
 
