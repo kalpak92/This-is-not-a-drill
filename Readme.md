@@ -53,6 +53,8 @@
 - [X] [Linked List Cycle](./Linked%20List/LinkedListCycle.cpp)
 - [X] [Linked List Cycle - Return cycle start point](./Linked%20List/LinkedListCycleII.cpp)
 - [X] [Middle of Linked List](./Linked%20List/MiddleofLinkedList.cpp)
+- [X] [Swapping nodes in a linked list](./Linked%20List/SwappingNodesInLinkedList.cpp)
+- [X] [Palindromic Linked List](./Linked%20List/PalindromicLinkedList.cpp)
 
 ### Prefix Sum problems
 
@@ -79,9 +81,11 @@
 - [X] [Reverse a Linked List from postion a to b](./Linked%20List/ReverseLinkedListII.cpp)
 - [X] [Reverse nodes of a Linked List in groups of K](./Linked%20List/ReverseNodesInKGroup.cpp)
 - [X] [Remove nodes from linked list](./Linked%20List/RemoveNodesFromList.cpp)
+- [X] [Palindromic Linked List](./Linked%20List/PalindromicLinkedList.cpp)
 - [X] [Linked List Cycle](./Linked%20List/LinkedListCycle.cpp)
 - [X] [Linked List Cycle - Return cycle start point](./Linked%20List/LinkedListCycleII.cpp)
 - [X] [Middle of Linked List](./Linked%20List/MiddleofLinkedList.cpp)
+- [X] [Swapping nodes in a linked list](./Linked%20List/SwappingNodesInLinkedList.cpp)
 - [X] [Add two numbers](./Linked%20List/AddTwoNumbers.cpp)
 - [X] [Add two numbers II](./Linked%20List/AddTwoNumberII.cpp)
 - [X] [Reorder Linked List](./Linked%20List/ReorderList.cpp)
