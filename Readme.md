@@ -59,6 +59,7 @@
 
 ### Prefix Sum problems
 
+- [X] [Basic Prefix Sum](./Arrays%20and%20String/Prefix%20Sum%20problems/BasicPrefixSum.cpp)
 - [X] [Product of array except self](./Arrays%20and%20String/Prefix%20Sum%20problems/ProductOfArrayExceptSelf.cpp)
 
 ### Merge Intervals
