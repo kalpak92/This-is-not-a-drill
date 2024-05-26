@@ -60,6 +60,7 @@
 ### Prefix Sum problems
 
 - [X] [Basic Prefix Sum](./Arrays%20and%20String/Prefix%20Sum%20problems/BasicPrefixSum.cpp)
+- [X] [Running Sum of 1d Array](./Arrays%20and%20String/Prefix%20Sum%20problems/RunningSum.cpp)
 - [X] [Find Pivot Index](./Arrays%20and%20String/Prefix%20Sum%20problems/FindPivotIndex.cpp)
 - [X] [Find Middle Index](./Arrays%20and%20String/Prefix%20Sum%20problems/FindMiddleIndex.cpp)
 - [X] [Count of Subarray sum equals K](./Arrays%20and%20String/Prefix%20Sum%20problems/SubarraySumEqualsK.cpp)
