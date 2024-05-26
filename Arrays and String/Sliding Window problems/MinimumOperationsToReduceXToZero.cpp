@@ -27,6 +27,7 @@
 
 #include <iostream>
 #include <vector>
+#include <unordered_map>
 
 using namespace std;
 
@@ -67,5 +68,51 @@ public:
         return max_length != INT_MIN ? nums.size() - max_length : -1;
 
     }
+
+    int minOperationsUsingPrefixSum(vector<int>& nums, int x) {
+        // Need to find a maximum length subarray of value total_sum - x.
+        int total_sum = -x;
+        for (int num : nums)
+            total_sum += num;
+        
+        // Since all elements are positive, we have to take all of them
+        if (total_sum == 0)
+            return nums.size();
+        
+        unordered_map<int, int> previous_sum_count;
+        previous_sum_count[0] = -1;
+
+        int running_sum = 0;
+        int result = INT_MIN;
+
+        for (int i = 0;i < nums.size(); i++) {
+            running_sum += nums[i];
+
+            // Check if there is a candidate in the map for running_sum - target
+            if (previous_sum_count.contains(running_sum - total_sum))
+                result = max(result, i - previous_sum_count[running_sum - total_sum]);
+            
+            if (!previous_sum_count.contains(running_sum))
+                previous_sum_count[running_sum] = i;
+        }
+        return result != INT_MIN ? nums.size() - result : -1;
+    }
 };
+
+int main() {
+    Solution solution;
+    vector<int> nums = {1, 1, 4, 2, 3};
+    int x = 5;
+    cout << solution.minOperations(nums, x) << endl;
+
+    nums = {5, 6, 7, 8, 9};
+    x = 4;
+    cout << solution.minOperations(nums, x) << endl;
+
+    nums = {3, 2, 20, 1, 1, 3};
+    x = 10;
+    cout << solution.minOperations(nums, x) << endl;
+
+    return 0;
+}
 
