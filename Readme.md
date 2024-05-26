@@ -72,6 +72,11 @@
 - [X] [Maximum size of subarray with sum equals K](./Arrays%20and%20String/Prefix%20Sum%20problems/MaximumSizeSubarraySumEqualsK.cpp)
 - [X] [Product of array except self](./Arrays%20and%20String/Prefix%20Sum%20problems/ProductOfArrayExceptSelf.cpp)
 
+### Sliding Window problems
+
+- [X] [Minimum operations to reduce X to zero](./Arrays%20and%20String/Sliding%20Window%20problems/MinimumOperationsToReduceXToZero.cpp)
+
+
 ### Merge Intervals
 
 - [X] [Meeting Room 2](./Priority%20Queue/MeetingRoomII.cpp)
