@@ -67,6 +67,8 @@
 - [X] [Count vowel strings in ranges](./Arrays%20and%20String/Prefix%20Sum%20problems/CountVowelStringsInRanges.cpp)
 - [X] [Count of Subarray sum equals K](./Arrays%20and%20String/Prefix%20Sum%20problems/SubarraySumEqualsK.cpp)
 - [X] [Count Number of Nice Subarrays](./Arrays%20and%20String/Prefix%20Sum%20problems/CountNumberOfNiceSubarrays.cpp)
+- [X] [Binary Subarrays With Sum K](./Arrays%20and%20String/Prefix%20Sum%20problems/BinarySubarraysWithSumK.cpp)
+- [X] [Count Number of Bad Pairs](./Arrays%20and%20String/Prefix%20Sum%20problems/CountNumberOfBadPairs.cpp)
 - [X] [Maximum size of subarray with sum equals K](./Arrays%20and%20String/Prefix%20Sum%20problems/MaximumSizeSubarraySumEqualsK.cpp)
 - [X] [Product of array except self](./Arrays%20and%20String/Prefix%20Sum%20problems/ProductOfArrayExceptSelf.cpp)
 
