@@ -66,6 +66,7 @@
 - [X] [Range Sum Query](./Arrays%20and%20String/Prefix%20Sum%20problems/RangeSumQuery.cpp)
 - [X] [Count vowel strings in ranges](./Arrays%20and%20String/Prefix%20Sum%20problems/CountVowelStringsInRanges.cpp)
 - [X] [Count of Subarray sum equals K](./Arrays%20and%20String/Prefix%20Sum%20problems/SubarraySumEqualsK.cpp)
+- [X] [Maximum size of subarray with sum equals K](./Arrays%20and%20String/Prefix%20Sum%20problems/MaximumSizeSubarraySumEqualsK.cpp)
 - [X] [Product of array except self](./Arrays%20and%20String/Prefix%20Sum%20problems/ProductOfArrayExceptSelf.cpp)
 
 ### Merge Intervals
