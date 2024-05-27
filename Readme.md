@@ -74,6 +74,7 @@
 - [X] [Subarray sum divisible by K](./Arrays%20and%20String/Prefix%20Sum%20problems/SubarraySumsDivisibleByK.cpp)
 - [X] [Make array sum divisible by P](./Arrays%20and%20String/Prefix%20Sum%20problems/MakeArraySumDivisibleByP.cpp)
 - [X] [Continuous subarray sum with multiples of K](./Arrays%20and%20String/Prefix%20Sum%20problems/ContinuousSubarrySum.cpp)
+- [X] [Find Divisibility Array of a string](./Arrays%20and%20String/Prefix%20Sum%20problems/FindDivisibilityArrayOfString.cpp)
 - [X] [Product of array except self](./Arrays%20and%20String/Prefix%20Sum%20problems/ProductOfArrayExceptSelf.cpp)
 
 ### Sliding Window problems
