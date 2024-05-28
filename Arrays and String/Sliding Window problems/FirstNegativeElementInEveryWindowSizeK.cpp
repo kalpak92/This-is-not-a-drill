@@ -65,11 +65,13 @@ int main() {
     vector<int> nums = {-8, 2, 3, -6, 10};
     int k = 2;
     printVector(nums);
+    cout << "First negative integer in every window size " << k << " is: ";
     printVector(sol.firstNegativeIntegerInEveryWindowSizeK(nums, k));
 
     nums = {12, -1, -7, 8, -15, 30, 16, 28};
     k = 3;
     printVector(nums);
+    cout << "First negative integer in every window size " << k << " is: ";
     printVector(sol.firstNegativeIntegerInEveryWindowSizeK(nums, k));
 
     return 0;
