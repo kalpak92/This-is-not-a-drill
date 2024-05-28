@@ -84,6 +84,7 @@
 - [X] [Maximum Sum in Distinct Subarray of Size K](./Arrays%20and%20String/Sliding%20Window%20problems/MaximumSumDistinctSubarraySizeK.cpp)
 - [X] [FirstNegativeElementInEveryWindowOfSizeK](./Arrays%20and%20String/Sliding%20Window%20problems/FirstNegativeElementInEveryWindowSizeK.cpp)
 - [X] [Sliding Window Maximum](./Arrays%20and%20String/Sliding%20Window%20problems/SlidingWindowMaximum.cpp)
+- [X] [Find all anagrams in a string](./Arrays%20and%20String/Sliding%20Window%20problems/FindAllAnagramsInAString.cpp)
 - [X] [Minimum operations to reduce X to zero](./Arrays%20and%20String/Sliding%20Window%20problems/MinimumOperationsToReduceXToZero.cpp)
 
 
@@ -196,6 +197,7 @@
 - [X] [Intersection of Two Arrays](./Arrays%20and%20String/Two%20Pointer%20problems/IntersectionOfTwoArrays.cpp)
 - [X] [Contains Duplicate](./Hash%20Table/ContainsDuplicate.cpp)
 - [X] [Valid Anagram](./Hash%20Table/ValidAnagram.cpp)
+- [X] [Find All Anagrams in a String](./Arrays%20and%20String/Sliding%20Window%20problems/FindAllAnagramsInAString.cpp)
 - [X] [Dot product of Sparse Vectors](./Hash%20Table/DotProductOfSparseVector.cpp)
 - [X] [Relative Sort an Array](./Divide%20and%20Conquer/RelativeSortArray.cpp)
 - [X] [Valid Sudoku](./Hash%20Table/ValidSudoku.cpp)
