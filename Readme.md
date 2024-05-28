@@ -83,6 +83,7 @@
 - [X] [Maximum Sum in Subarray of Size K](./Arrays%20and%20String/Sliding%20Window%20problems/MaximumSumSubarraySizeK.cpp)
 - [X] [Maximum Sum in Distinct Subarray of Size K](./Arrays%20and%20String/Sliding%20Window%20problems/MaximumSumDistinctSubarraySizeK.cpp)
 - [X] [FirstNegativeElementInEveryWindowOfSizeK](./Arrays%20and%20String/Sliding%20Window%20problems/FirstNegativeElementInEveryWindowSizeK.cpp)
+- [X] [Sliding Window Maximum](./Arrays%20and%20String/Sliding%20Window%20problems/SlidingWindowMaximum.cpp)
 - [X] [Minimum operations to reduce X to zero](./Arrays%20and%20String/Sliding%20Window%20problems/MinimumOperationsToReduceXToZero.cpp)
 
 
