@@ -203,6 +203,7 @@
 - [X] [Two Sum](/Hash%20Table/TwoSum.cpp)
 - [X] [Intersection of Two Arrays](./Arrays%20and%20String/Two%20Pointer%20problems/IntersectionOfTwoArrays.cpp)
 - [X] [Contains Duplicate](./Hash%20Table/ContainsDuplicate.cpp)
+- [X] [Contains duplicate within a given range K]()
 - [X] [Valid Anagram](./Hash%20Table/ValidAnagram.cpp)
 - [X] [Find All Anagrams in a String](./Arrays%20and%20String/Sliding%20Window%20problems/FindAllAnagramsInAString.cpp)
 - [X] [Dot product of Sparse Vectors](./Hash%20Table/DotProductOfSparseVector.cpp)
