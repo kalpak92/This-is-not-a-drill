@@ -89,6 +89,7 @@
 - [X] [Number of contiguous subarrays where product of subarray is < k](./Arrays%20and%20String/Sliding%20Window%20problems/SubarrayProductLessThanK.cpp)
 - [X] [Longest Substring without duplicate characters](./Arrays%20and%20String/Sliding%20Window%20problems/LongestSubstringWithoutDuplicateCharacters.cpp)
 - [X] [Longest Substring With K Distinct Characters](./Arrays%20and%20String/Sliding%20Window%20problems/LongestSubstringWithKDistinctCharacters.cpp)
+- [X] [Longest Subarray with Atmost K Frequency](./Arrays%20and%20String/Sliding%20Window%20problems/LengthOfLongestSubarrayWithAtMostKFrequency.cpp)
 - [X] [Minimum operations to reduce X to zero](./Arrays%20and%20String/Sliding%20Window%20problems/MinimumOperationsToReduceXToZero.cpp)
 
 
