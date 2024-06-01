@@ -55,3 +55,11 @@ public:
         return result;
     }
 };
+
+int main() {
+    Solution objLongestOnes;
+    vector<int> nums = {1,1,1,0,0,0,1,1,1,1,0};
+    int k = 2;
+    cout << objLongestOnes.longestOnes(nums, k) << endl;
+    return 0;
+}
