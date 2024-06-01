@@ -80,6 +80,7 @@
 
 ### Sliding Window problems
 
+- [X] [Repeated DNA Sequence](./Arrays%20and%20String/Sliding%20Window%20problems/RepeatedDNASequences.cpp)
 - [X] [Maximum Sum in Subarray of Size K](./Arrays%20and%20String/Sliding%20Window%20problems/MaximumSumSubarraySizeK.cpp)
 - [X] [Maximum Sum in Distinct Subarray of Size K](./Arrays%20and%20String/Sliding%20Window%20problems/MaximumSumDistinctSubarraySizeK.cpp)
 - [X] [FirstNegativeElementInEveryWindowOfSizeK](./Arrays%20and%20String/Sliding%20Window%20problems/FirstNegativeElementInEveryWindowSizeK.cpp)
