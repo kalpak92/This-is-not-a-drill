@@ -93,6 +93,7 @@
 - [X] [Longest Subarray with Atmost K Frequency](./Arrays%20and%20String/Sliding%20Window%20problems/LengthOfLongestSubarrayWithAtMostKFrequency.cpp)
 - [X] [Longest Substring with Atmost K distinct characters](./Arrays%20and%20String/Sliding%20Window%20problems/LongestSubstringWithAtMostKDistinctCharacters.cpp)
 - [X] [Longest Substring with Atmost 2 distinct characters](./Arrays%20and%20String/Sliding%20Window%20problems/LongestSubstringWithAtMost2DistinctCharacters.cpp)
+- [X] [Longest Substring after replacing K characters](./Arrays%20and%20String/Sliding%20Window%20problems/LongestSubstringAfterReplacingKCharacters.cpp)
 - [X] [Minimum Window Substring](./Arrays%20and%20String/Sliding%20Window%20problems/MinimumWindowSubstring.cpp)
 - [X] [Maximum Consecutive Ones III](./Arrays%20and%20String/Sliding%20Window%20problems/MaxConsecutiveOnes.cpp)
 - [X] [Minimum operations to reduce X to zero](./Arrays%20and%20String/Sliding%20Window%20problems/MinimumOperationsToReduceXToZero.cpp)
