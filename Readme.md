@@ -251,6 +251,7 @@
 - [X] [First and Last Position of Element in a Sorted Array](./Divide%20and%20Conquer/Binary%20Search/FirstAndLastPositionInArray.cpp)
 - [X] [Search in a Rotated Sorted Array](./Divide%20and%20Conquer/Binary%20Search/SearchInARotatedSortedArray.cpp)
 - [X] [Search in a Rotated Sorted Array with Duplicates](./Divide%20and%20Conquer/Binary%20Search/SearchInARotatedSortedArrayII.cpp)
+- [X] [Find minimum in a Rotated Sorted Array](./Divide%20and%20Conquer/Binary%20Search/FindMinimumInARotatedSortedArray.cpp)
 
 ## Greedy
 
