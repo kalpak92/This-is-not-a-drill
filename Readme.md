@@ -99,7 +99,6 @@
 - [X] [Maximum Consecutive Ones III](./Arrays%20and%20String/Sliding%20Window%20problems/MaxConsecutiveOnes.cpp)
 - [X] [Minimum operations to reduce X to zero](./Arrays%20and%20String/Sliding%20Window%20problems/MinimumOperationsToReduceXToZero.cpp)
 
-
 ### Merge Intervals
 
 - [X] [Meeting Room 2](./Priority%20Queue/MeetingRoomII.cpp)
@@ -244,6 +243,10 @@
 - [X] [Kth Largest Element in Stream](./Priority%20Queue/KthLargestElementInStream.cpp)
 - [X] [Top K frequent elements](./Priority%20Queue/TopKFrequentElements.cpp)
 - [X] [K closest point to origin](/Priority%20Queue/KClosestPointsToOrigin.cpp)
+
+### Binary Search
+
+- [X] [Binary Search](./Divide%20and%20Conquer/Binary%20Search/BinarySearch.cpp)
 
 ## Greedy
 
