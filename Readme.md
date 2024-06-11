@@ -254,6 +254,7 @@
 - [X] [Find minimum in a Rotated Sorted Array](./Divide%20and%20Conquer/Binary%20Search/FindMinimumInARotatedSortedArray.cpp)
 - [X] [Find minimum in a Rotated Sorted Array with Duplicates](./Divide%20and%20Conquer/Binary%20Search/FindMinimumInARotatedSortedArrayII.cpp)
 - [X] [Single Element in Sorted Array](./Divide%20and%20Conquer/Binary%20Search/SingleElementInSortedArray.cpp)
+- [X] [Find Peak Element](./Divide%20and%20Conquer/Binary%20Search/FindPeakElement.cpp)
 
 ## Greedy
 
