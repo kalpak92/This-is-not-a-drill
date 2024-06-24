@@ -257,6 +257,7 @@
 - [X] [Find Peak Element](./Divide%20and%20Conquer/Binary%20Search/FindPeakElement.cpp)
 - [X] [Peak Index in Mountain Array](./Divide%20and%20Conquer/Binary%20Search/PeakIndexInMountainArray.cpp)
 - [X] [Square Root](./Divide%20and%20Conquer/Binary%20Search/SquareRoot.cpp)
+- [X] [Koko Eating Bananas](./Divide%20and%20Conquer/Binary%20Search/KokoEatingBananas.cpp)
 
 ## Greedy
 
