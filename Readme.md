@@ -264,3 +264,7 @@
 - [X] [Reorganize String](./Priority%20Queue/ReorganizeString.cpp)
 - [X] [Meeting Rooms II](./Priority%20Queue/MeetingRoomII.cpp)
 - [X] [Meeting Rooms III](./Priority%20Queue/MeetingRoomsIII.cpp)
+
+## Math
+
+- [X] [Power(x, n)](./Math/Pow.cpp)
