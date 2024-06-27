@@ -259,6 +259,7 @@
 - [X] [Square Root](./Divide%20and%20Conquer/Binary%20Search/SquareRoot.cpp)
 - [X] [Koko Eating Bananas](./Divide%20and%20Conquer/Binary%20Search/KokoEatingBananas.cpp)
 - [X] [Minimum Days to make M bouquets of K flowers](./Divide%20and%20Conquer/Binary%20Search/MinimumDaysToMakeMBouquets.cpp)
+- [X] [Smallest Divisor Given a Threshold](./Divide%20and%20Conquer/Binary%20Search/SmallestDivisorGivenAThreshold.cpp)
 
 ## Greedy
 
