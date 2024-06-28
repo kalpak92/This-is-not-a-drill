@@ -261,6 +261,7 @@
 - [X] [Minimum Days to make M bouquets of K flowers](./Divide%20and%20Conquer/Binary%20Search/MinimumDaysToMakeMBouquets.cpp)
 - [X] [Smallest Divisor Given a Threshold](./Divide%20and%20Conquer/Binary%20Search/SmallestDivisorGivenAThreshold.cpp)
 - [X] [Least capacity to ship packages in D days](./Divide%20and%20Conquer/Binary%20Search/LeastCapacityToShipPackagesInDdays.cpp)
+- [X] [Kth missing positive number](./Divide%20and%20Conquer/Binary%20Search/KthMissingPositiveNumber.cpp)
 
 ## Greedy
 
