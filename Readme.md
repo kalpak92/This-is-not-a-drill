@@ -265,6 +265,7 @@
 - [X] [Random pick with weights](./Divide%20and%20Conquer/Binary%20Search/RandomPickWithWeights.cpp)
 - [X] [Time based Key-Value Store](./Divide%20and%20Conquer/Binary%20Search/TimeBasedKeyValueStore.cpp)
 - [X] [Median of Two Sorted Arrays](./Divide%20and%20Conquer/Binary%20Search/MedianOfTwoSortedArrays.cpp)
+- [X] [Kth element in Two Sorted Arrays](./Divide%20and%20Conquer/Binary%20Search/KthElementInTwoSortedArrays.cpp)
 
 ## Greedy
 
