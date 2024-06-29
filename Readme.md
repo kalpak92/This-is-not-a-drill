@@ -267,6 +267,7 @@
 - [X] [Median of Two Sorted Arrays](./Divide%20and%20Conquer/Binary%20Search/MedianOfTwoSortedArrays.cpp)
 - [X] [Kth element in Two Sorted Arrays](./Divide%20and%20Conquer/Binary%20Search/KthElementInTwoSortedArrays.cpp)
 - [X] [Row with Maximum ones](./Divide%20and%20Conquer/Binary%20Search/RowWithMaximumOnes.cpp)
+- [X] [Row with maximum ones in increasing binary matrix](./Divide%20and%20Conquer/Binary%20Search/RowWithMaximumOnesInIncreasingBinaryMatrix.cpp)
 
 ## Greedy
 
