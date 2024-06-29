@@ -263,6 +263,7 @@
 - [X] [Least capacity to ship packages in D days](./Divide%20and%20Conquer/Binary%20Search/LeastCapacityToShipPackagesInDdays.cpp)
 - [X] [Kth missing positive number](./Divide%20and%20Conquer/Binary%20Search/KthMissingPositiveNumber.cpp)
 - [X] [Random pick with weights](./Divide%20and%20Conquer/Binary%20Search/RandomPickWithWeights.cpp)
+- [X] [Time based Key-Value Store](./Divide%20and%20Conquer/Binary%20Search/TimeBasedKeyValueStore.cpp)
 
 ## Greedy
 
