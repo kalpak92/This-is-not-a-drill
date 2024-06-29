@@ -262,6 +262,7 @@
 - [X] [Smallest Divisor Given a Threshold](./Divide%20and%20Conquer/Binary%20Search/SmallestDivisorGivenAThreshold.cpp)
 - [X] [Least capacity to ship packages in D days](./Divide%20and%20Conquer/Binary%20Search/LeastCapacityToShipPackagesInDdays.cpp)
 - [X] [Kth missing positive number](./Divide%20and%20Conquer/Binary%20Search/KthMissingPositiveNumber.cpp)
+- [X] [Random pick with weights](./Divide%20and%20Conquer/Binary%20Search/RandomPickWithWeights.cpp)
 
 ## Greedy
 
