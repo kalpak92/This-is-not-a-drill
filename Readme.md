@@ -270,6 +270,7 @@
 - [X] [Row with maximum ones in increasing binary matrix](./Divide%20and%20Conquer/Binary%20Search/RowWithMaximumOnesInIncreasingBinaryMatrix.cpp)
 - [X] [Search in a 2D Matrix](./Divide%20and%20Conquer/Binary%20Search/Search2Dmatrix.cpp)
 - [X] [Search in a 2D Matrix - II](./Divide%20and%20Conquer/Binary%20Search/Search2DmatrixII.cpp)
+- [X] [Kth smallest element in a sorted matrix](./Divide%20and%20Conquer/Binary%20Search/KthSmallestElementInSortedMatrix.cpp)
 
 ## Greedy
 
