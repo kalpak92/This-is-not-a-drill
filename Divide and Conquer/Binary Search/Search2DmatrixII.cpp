@@ -18,6 +18,7 @@ using namespace std;
 
 class Solution {
 public:
+    // Time Complexity: O(m + n)
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
         int row = 0;
         int col = matrix[row].size() - 1;
