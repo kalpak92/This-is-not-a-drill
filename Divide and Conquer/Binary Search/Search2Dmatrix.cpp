@@ -14,6 +14,7 @@ using namespace std;
 
 class Solution {
 public:
+    // Time Complexity: O(log(m*n))
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
         int num_rows = matrix.size();
         int num_cols = matrix[0].size();
