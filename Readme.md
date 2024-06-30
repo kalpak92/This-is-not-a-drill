@@ -272,6 +272,7 @@
 - [X] [Search in a 2D Matrix - II](./Divide%20and%20Conquer/Binary%20Search/Search2DmatrixII.cpp)
 - [X] [Kth smallest element in a sorted matrix](./Divide%20and%20Conquer/Binary%20Search/KthSmallestElementInSortedMatrix.cpp)
 - [X] [Find Peak Element in a 2D matrix](./Divide%20and%20Conquer/Binary%20Search/FindPeakElementII.cpp)
+- [X] [Median of Row wise Sorted Matrix](./Divide%20and%20Conquer/Binary%20Search/MedianOfRowWiseSortedMatrix.cpp)
 
 ## Greedy
 
