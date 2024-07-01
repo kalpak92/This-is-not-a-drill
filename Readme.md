@@ -145,6 +145,7 @@
 
 - [X] [Valid Parenthesis](./Stack/ValidParenthesis.cpp)
 - [X] [Minimum remove to make valid parenthesis](./Stack/MinimumRemoveToMakeValidParenthesis.cpp)
+- [X] [Next Greater element to the left and right](./Stack/NextGreaterElementToLeftAndRight.cpp)
 
 ## Queue
 
