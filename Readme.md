@@ -143,6 +143,8 @@
 
 </details>
 
+- [X] [Valid Parenthesis](./Stack/ValidParenthesis.cpp)
+
 ## Queue
 
 <details>
