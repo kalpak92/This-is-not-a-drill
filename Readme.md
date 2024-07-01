@@ -144,6 +144,7 @@
 </details>
 
 - [X] [Valid Parenthesis](./Stack/ValidParenthesis.cpp)
+- [X] [Minimum remove to make valid parenthesis](./Stack/MinimumRemoveToMakeValidParenthesis.cpp)
 
 ## Queue
 
