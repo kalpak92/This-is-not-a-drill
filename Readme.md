@@ -150,6 +150,7 @@
 - [X] [Next Greater Element - II](./Stack/NextGreaterElementII.cpp)
 - [X] [Daily Temperatures](./Stack/DailyTemperatures.cpp)
 - [X] [Online Stock Span](./Stack/OnlineStockSpan.cpp)
+- [X] [Buildings with Ocean View](./Stack/BuildingsWithOceanView.cpp)
 
 ## Queue
 
