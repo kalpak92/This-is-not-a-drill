@@ -148,6 +148,7 @@
 - [X] [Next Greater element to the left and right](./Stack/NextGreaterElementToLeftAndRight.cpp)
 - [X] [Next Greater Element - I](./Stack/NextGreaterElement.cpp)
 - [X] [Next Greater Element - II](./Stack/NextGreaterElementII.cpp)
+- [X] [Daily Temperatures](./Stack/DailyTemperatures.cpp)
 
 ## Queue
 
